@@ -131,7 +131,7 @@ const About = () => {
             {/* Card */}
             <Link
               to="/gallery"
-              className="group relative flex flex-col w-full min-h-[15rem] bg-center bg-cover rounded-xl hover:shadow-lg transition bg-[url('https://scontent.fmnl9-4.fna.fbcdn.net/v/t39.30808-6/305121877_635082617960917_3927028365383473436_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=174925&_nc_eui2=AeEU7FB7DlDo1yEzSy5EuA6nNjbjIVuH_1U2NuMhW4f_VaNM6qnwZHsUN9DSW5vVEtfJj_TS0Z_Gcum8WO-UcVhA&_nc_ohc=J5-fO8gZqL8AX-UsjOH&_nc_ht=scontent.fmnl9-4.fna&_nc_e2o=s&oh=00_AfA4foHdnhiYPHNs51CrmlLOZMpquRxP8_i7FVpl7wyaJA&oe=64CF053D')]"
+              className="group relative flex flex-col w-full min-h-[15rem] bg-center bg-cover rounded-xl hover:shadow-lg transition bg-[url('https://scontent.fmnl8-1.fna.fbcdn.net/v/t39.30808-6/305121877_635082617960917_3927028365383473436_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=174925&_nc_eui2=AeEU7FB7DlDo1yEzSy5EuA6nNjbjIVuH_1U2NuMhW4f_VaNM6qnwZHsUN9DSW5vVEtfJj_TS0Z_Gcum8WO-UcVhA&_nc_ohc=j-_LqV71g5AAX-9xTn_&_nc_ht=scontent.fmnl8-1.fna&_nc_e2o=s&oh=00_AfDFKPZUiLPGO3tlmdAAbVbatBtfzsk1dRQXOtXTUOCOAg&oe=64D8E87D')]"
             >
               <div className="flex-auto p-4 md:p-6">
                 <h3 className=" text-white/[.9] group-hover:text-white">
