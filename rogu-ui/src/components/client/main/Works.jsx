@@ -141,7 +141,7 @@ const Works = () => {
                   <p className=" text-black text-base line-clamp-2">
                     {item.description}
                   </p>
-                  <div className="space-x-2">
+                  <div className="lg:space-x-2 sm:space-x-0">
                     <button
                       type="button"
                       onClick={() => handleClick(item._id)}
