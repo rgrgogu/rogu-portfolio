@@ -1,27 +1,4 @@
-import { useState } from "react";
-
-const ModalForm = () => {
-  const [acc, setAcc] = useState({
-    email: "",
-    password: "",
-  });
-
-  const handleOnChange = (e) => {
-    setAcc((prev) => ({
-      ...prev,
-      [e.target.name]: e.target.value,
-    }));
-  };
-
-  const handleClick = (e) => {
-    e.preventDefault();
-
-    console.log(acc);
-
-    if (acc.email === "admin" && acc.password === "admin")
-      window.location.href = "/admin";
-  };
-
+const ModalForm = ({ handleOnChange, handleClick }) => {
   return (
     <form>
       <div className="grid gap-y-4">

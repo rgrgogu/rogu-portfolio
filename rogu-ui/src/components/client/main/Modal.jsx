@@ -1,6 +1,32 @@
 import ModalForm from "./ModalForm";
+import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 const Modal = () => {
+  const navigate = useNavigate();
+  const [acc, setAcc] = useState({
+    email: "",
+    password: "",
+  });
+
+  const handleOnChange = (e) => {
+    setAcc((prev) => ({
+      ...prev,
+      [e.target.name]: e.target.value,
+    }));
+  };
+
+  const handleClick = (e) => {
+    e.preventDefault();
+
+    console.log(acc);
+
+    if (acc.email === "admin" && acc.password === "admin"){
+      navigate('/admin');
+      HSOverlay.close(document.getElementById("hs-modal-signin"));
+    }
+  };
+
   return (
     <>
       <div
@@ -17,7 +43,7 @@ const Modal = () => {
               </div>
               <div className="mt-5">
                 {/* Form */}
-                <ModalForm />
+                <ModalForm handleOnChange={handleOnChange} handleClick={handleClick}/>
                 {/* End Form */}
               </div>
             </div>
