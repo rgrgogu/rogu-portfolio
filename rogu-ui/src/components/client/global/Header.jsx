@@ -37,7 +37,7 @@ const Header = () => {
     <>
       <header className="flex flex-wrap md:justify-start md:flex-nowrap z-50 w-full text-sm fixed top-0 ">
         <nav
-          className={`relative w-full bg-white border border-gray-200  py-3 px-4 md:flex md:items-center md:justify-between md:py-0 md:px-6 lg:px-8 xl:mx-auto ${
+          className={`relative w-full   py-3 px-4 md:flex md:items-center md:justify-between md:py-0 md:px-6 lg:px-8 xl:mx-auto ${
             color
               ? `dark:bg-[#151515] dark:border-[#151515] transition duration-300 ease-in-out`
               : `dark:bg-transparent dark:border-transparent transition duration-300 ease-in-out  `
